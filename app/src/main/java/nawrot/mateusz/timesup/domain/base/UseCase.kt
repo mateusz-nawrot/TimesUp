@@ -1,4 +1,4 @@
-package nawrot.mateusz.timesup.domain
+package nawrot.mateusz.timesup.domain.base
 
 
 abstract class UseCase<in P, R> {
