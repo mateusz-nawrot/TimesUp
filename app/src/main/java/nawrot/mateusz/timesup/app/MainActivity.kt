@@ -1,7 +1,8 @@
-package nawrot.mateusz.timesup
+package nawrot.mateusz.timesup.app
 
 import android.app.Activity
 import android.os.Bundle
+import nawrot.mateusz.timesup.R
 
 class MainActivity : Activity() {
 
