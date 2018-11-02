@@ -27,6 +27,7 @@ ext {
     retrofitVersion = '2.4.0'
     okHttpVersion = '3.10.0'
     gsonVersion = '2.8.2'
+    retrofitCoroutinesAdapter = '0.9.2'
 }
 
 allprojects {

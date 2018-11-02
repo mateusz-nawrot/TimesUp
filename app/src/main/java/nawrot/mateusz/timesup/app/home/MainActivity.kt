@@ -2,6 +2,7 @@ package nawrot.mateusz.timesup.app.home
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import dagger.android.AndroidInjection
 import nawrot.mateusz.timesup.R
@@ -21,5 +22,7 @@ class MainActivity : FragmentActivity() {
         setContentView(R.layout.activity_main)
 
         homeViewModel = createViewModel(viewModelFactory)
+
+        homeViewModel.viewState.observe(this, Observer {  })
     }
 }
